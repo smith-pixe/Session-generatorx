@@ -1,1 +1,1 @@
-worker: node Maher-Zubair.js
+web: node Maher-Zubair.js
