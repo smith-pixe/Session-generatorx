@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                //let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'MAKINO-MD-V2;;;' + b64data });
                  let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: data }),
 
-               let SIGMA_MD_TEXT = `Pair Successful.`
+                 var SIGMA_MD_TEXT = `Pair Successful.`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
