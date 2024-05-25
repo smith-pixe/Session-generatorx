@@ -56,21 +56,21 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: data });
+				   let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: b64data });
 				   let SIGMA_MD_TEXT = `
-    *_Pair Successful🥵._*
+          _*PAIR Successful 🔥*_
 put the above ID in the sessID variable when deploying .
-You can chose to edit config.js to your taste or use the bot as it is and you can change prefix with the setprefix command.
+Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
 ╔═════◇
-║       『••• MAKINO-MD V2•••』
+║       『••• Tᴀɪʀᴀ Mᴀᴋɪɴᴏ•••』
 ║ *Channel:* _https://whatsapp.com/channel/0029VaaSaXD23n3ZEognud1V_
 ║ *Main GC:* _https://chat.whatsapp.com/Dr03KnoxE2xK8pf19vbA1v_
 ║ *Support GC:* _https://chat.whatsapp.com/BRDE2Yqsj9iAkTxhnuI1AL_
 ║ *Github:* _https://github.com/anonphoenix007_
 ║ *Owner:* _https://wa.me/2347080968564_
 ║ *Note :*_Do not provide your SESSION_ID to_
-║ _anyone otherwise that can access your data_
-║ _*please star and fork repo for courage 🫡.*_
+║ _anyone otherwise that can access your WA messages_
+║ _*Follow Me and Star my repo for more 🫡.*_
 ╚════════════════════════╝`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
