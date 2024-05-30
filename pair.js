@@ -55,7 +55,7 @@ router.get('/', async (req, res) => {
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
              //  let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'MAKINO-MD-V2;;;' + b64data });
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: data });
 
                  let SIGMA_MD_TEXT = `
     *_Pair Successful🥵._*
