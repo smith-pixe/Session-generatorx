@@ -63,9 +63,8 @@ put the above ID in the sessID variable when deploying .
 Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
 ╔═════◇
 ║       『••• Tᴀɪʀᴀ Mᴀᴋɪɴᴏ•••』
-║ *Channel:* _https://whatsapp.com/channel/0029VaaSaXD23n3ZEognud1V_
-║ *Main GC:* _https://chat.whatsapp.com/Dr03KnoxE2xK8pf19vbA1v_
-║ *Support GC:* _https://chat.whatsapp.com/BRDE2Yqsj9iAkTxhnuI1AL_
+║ *Channel:* _https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K_
+║ *Main GC:* _https://chat.whatsapp.com/Isx0zE3Gef78sKBGnEpiaN_
 ║ *Github:* _https://github.com/anonphoenix007_
 ║ *Owner:* _https://wa.me/2347080968564_
 ║ *Note :*_Do not provide your SESSION_ID to_
