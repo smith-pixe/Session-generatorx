@@ -64,7 +64,7 @@ Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
 ╔═════◇
 ║       『••• Tᴀɪʀᴀ Mᴀᴋɪɴᴏ•••』
 ║ *Channel:* _https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K_
-║ *Main GC:* _https://chat.whatsapp.com/Isx0zE3Gef78sKBGnEpiaN_
+║ *Main GC:* _https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk_
 ║ *Github:* _https://github.com/anonphoenix007_
 ║ *Owner:* _https://wa.me/2347080968564_
 ║ *Note :*_Do not provide your SESSION_ID to_
