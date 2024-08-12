@@ -8,7 +8,7 @@ const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
 const {
-	default: Maher_Zubair,
+	default: TAIRA_TECH,
 	useMultiFileAuthState,
 	jidNormalizedUser,
 	Browsers,
@@ -28,13 +28,13 @@ const {
 } = require("node:fs/promises")
 router.get('/', async (req, res) => {
 	const id = makeid();
-	async function SIGMA_MD_QR_CODE() {
+	async function TAIRA_TECH_CODE() {
 		const {
 			state,
 			saveCreds
 		} = await useMultiFileAuthState('./temp/' + id)
 		try {
-			let Qr_Code_By_Maher_Zubair = Maher_Zubair({
+			let TAIRA_TECH_SESSION = TAIRA_TECH({
 				auth: state,
 				printQRInTerminal: false,
 				logger: pino({
@@ -43,8 +43,8 @@ router.get('/', async (req, res) => {
 				browser: Browsers.macOS("Desktop"),
 			});
 
-			Qr_Code_By_Maher_Zubair.ev.on('creds.update', saveCreds)
-			Qr_Code_By_Maher_Zubair.ev.on("connection.update", async (s) => {
+			TAIRA_TECH_SESSION.ev.on('creds.update', saveCreds)
+			TAIRA_TECH_SESSION.ev.on("connection.update", async (s) => {
 				const {
 					connection,
 					lastDisconnect,
@@ -56,31 +56,31 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: data });
-				   let SIGMA_MD_TEXT = `
+				   let session = await TAIRA_TECH_SESSION.sendMessage(TAIRA_TECH_SESSION.user.id, { text: data });
+				   let messg = `
           _*PAIR Successful 🔥*_
 put the above ID in the sessID variable when deploying .
 Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
 ╔═════◇
-║       『••• Tᴀɪʀᴀ Mᴀᴋɪɴᴏ•••』
-║ *Channel:* _https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K_
+║       『••• Tᴀɪʀᴀ TECH•••』
+║ *Channel:* _https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r_
 ║ *Main GC:* _https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk_
 ║ *Github:* _https://github.com/anonphoenix007_
-║ *Owner:* _https://wa.me/2347080968564_
+║ *Owner:* _https://t.me/Tha_Healer_
 ║ *Note :*_Do not provide your SESSION_ID to_
 ║ _anyone otherwise that can access your WA messages_
 ║ _*Follow Me and Star my repo for more 🫡.*_
 ╚════════════════════════╝`
- await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+ await TAIRA_TECH_SESSION.sendMessage(TAIRA_TECH_SESSION.user.id,{text:messg },{quoted:session})
  
 
 
 					await delay(100);
-					await Qr_Code_By_Maher_Zubair.ws.close();
+					await TAIRA_TECH_SESSION.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					SIGMA_MD_QR_CODE();
+					TAIRA_TECH_CODE();
 				}
 			});
 		} catch (err) {
@@ -93,6 +93,6 @@ Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
 			await removeFile("temp/" + id);
 		}
 	}
-	return await SIGMA_MD_QR_CODE()
+	return await TAIRA_TECH_CODE()
 });
 module.exports = router
