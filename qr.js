@@ -8,7 +8,7 @@ const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
 const {
-	default: TAIRA_TECH,
+	default: 𝐀𝐑𝐋𝐎_Tᵉᶜʰ,
 	useMultiFileAuthState,
 	jidNormalizedUser,
 	Browsers,
@@ -61,16 +61,12 @@ router.get('/', async (req, res) => {
           _*PAIR Successful 🔥*_
 put the above ID in the sessID variable when deploying .
 Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
-╔═════◇
-║       『••• Tᴀɪʀᴀ TECH•••』
-║ *Channel:* _https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r_
-║ *Main GC:* _https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk_
-║ *Github:* _https://github.com/anonphoenix007_
-║ *Owner:* _https://t.me/Tha_Healer_
-║ *Note :*_Do not provide your SESSION_ID to_
-║ _anyone otherwise that can access your WA messages_
-║ _*Follow Me and Star my repo for more 🫡.*_
-╚════════════════════════╝`
+▱▰▱▰▱▰▱▰◇
+༄       『••• ARLODRAGON•••』
+༆ *Channel:* _https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q
+༄ *Main GC:* _https://chat.whatsapp.com/I5xIShFtrk43tfaWEmppNH
+༆ _*Follow Me and Star my repo for more 🫡.*_
+▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰`
  await TAIRA_TECH_SESSION.sendMessage(TAIRA_TECH_SESSION.user.id,{text:messg },{quoted:session})
  
 
