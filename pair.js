@@ -58,18 +58,16 @@ router.get('/', async (req, res) => {
                let session = await TAIRA_TECH_SESSION.sendMessage(TAIRA_TECH_SESSION.user.id, { text: data });
 
                  let messg = `
-    *_Pair Successful🥵._*
+    *_Pair Successful✅._*
 put the above ID in the sessID variable when deploying .
-Use this Session ID for all bots by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ.
+Use this Session ID for all bots by ARLODRAGON.
 ╔═════◇
-║       『••• Tᴀɪʀᴀ TECH•••』
-║ *Channel:* _https://whatsapp.com/channel/0029Vag5l2ALSmbi14YryJ2r_
-║ *Main GC:* _https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk_
-║ *Github:* _https://github.com/anonphoenix007_
-║ *Owner:* _https://t.me/Tha_Healer_
-║ *Note :*_Do not provide your SESSION_ID to_
-║ _anyone otherwise that can access your WA messages_
-║ _*Follow Me and Star my repo for more 🫡.*_
+║       『••• ARLODRAGON TECH•••』
+║ *Channel:* _https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q
+║ *Main GC:* _https://chat.whatsapp.com/I5xIShFtrk43tfaWEmppNH
+║ *Github:* _https://github.com/Arlo-dragony 
+║ *Note :*_ARLODRAGON IS HERE TO HELP WA.ME+254702713600 _
+║ _*Follow Me and Star my repo for more .*_
 ╚════════════════════════╝`
  await TAIRA_TECH_SESSION.sendMessage(TAIRA_TECH_SESSION.user.id,{text:messg },{quoted:session})
  
